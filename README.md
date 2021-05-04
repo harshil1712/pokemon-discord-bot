@@ -8,14 +8,14 @@ The bot listens to the command **pokemon** and fetches the infromation of the Po
 
 ## Installation
 
-1. Clone the Repository
+### 1. Clone the Repository
 
 ```sh
 git clone https://github.com/harshil1712/pokemon-discord-bot.git
 
 ```
 
-2. Install Packages
+### 2. Install Packages
 
 ```sh
 yarn install
@@ -26,19 +26,21 @@ or
 npm install
 ```
 
-3. Create a `.env` file in the root directory of the project.
+### 3. Create a `.env` file in the root directory of the project.
 
-4. Paste the following in the `.env` file and add you bot token.
+### 4. Paste the following in the `.env` file and add you bot token.
 
 ```env
 BOT_TOKEN=<--YOUR BOT TOKEN-->
 ```
 
-5. Start the Bot
+### 5. Start the Bot
 
 ```sh
 yarn start
 ```
+
+or
 
 ```sh
 npm start
