@@ -1,29 +1,55 @@
 # Pokemon Discord Bot
+
 ## Introduction
-This repo will help you to build a discord bot with [discord.js](https://discord.js.org/#/docs/main/stable/general/welcome) and use [pokemon api](https://pokeapi.co/). </br>
-The Discord bot will listen to all messages from the users, which are starting with **pokemon** and followed by any pokemon character eg: pikachu.
-And will send a response to embed with the Name of the pokemon and its image from the API.
+
+Learn to build a Discord bot using [Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome). This repository will help you get started with building a Discord bot that fetches data from the [Pokemon API](https://pokeapi.co/).
+
+The bot listens to the command **pokemon** and fetches the infromation of the Pokemon specified after the command.
 
 ## Installation
-1. Clone the repo
-```cli
+
+1. Clone the Repository
+
+```sh
 git clone https://github.com/harshil1712/pokemon-discord-bot.git
+
 ```
-2. Install all the npm packages
-```cli
+
+2. Install Packages
+
+```sh
 yarn install
 ```
-3. Make a new file ".env" in your directory
+or
+
+```sh
+npm install
+```
+
+3. Create a `.env` file in the root directory of the project.
+
+4. Paste the following in the `.env` file and add you bot token.
+
 ```env
 BOT_TOKEN=<--YOUR BOT TOKEN-->
 ```
-4. Run the bot
-```cli
+
+5. Start the Bot
+
+```sh
+yarn start
+```
+
+```sh
 npm start
 ```
-5. Done Enjoy your bot pokemon-discord bot.
 
-Live Stream Recording:
-https://youtu.be/w6ce19rd4pg
+Make sure to add your bot to a server or open a direct message with it, to test the functionalities.
 
-Ps: Please add your bot on a server before or open a direct message with it, to test out the functionalities.
+## Learn more
+
+We created this bot on a Twitch [live stream](https://twitch.tv/harshil1712)! If you want to learn from the start you can checkout the recording on [YouTube](https://youtu.be/w6ce19rd4pg).
+
+## Contribute
+
+If you find bugs, or want to add more features to the bot, feel free to open a pull request.
